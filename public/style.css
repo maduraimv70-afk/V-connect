@@ -1,0 +1,9 @@
+video {
+    width: 300px;
+    border: 2px solid black;
+}
+
+#map {
+    height: 400px;
+    margin-top: 20px;
+}

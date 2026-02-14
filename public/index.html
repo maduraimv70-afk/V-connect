@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Chat + Location</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Socket.io -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Leaflet Geocoder -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Connect Venkatesh</h2>
+<video id="localVideo" autoplay muted></video>
+<video id="remoteVideo" autoplay></video>
+<br>
+<button id="shareLocation">Share Location</button>
+
+<h2>Map</h2>
+<div id="map"></div>
+<p id="address"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
